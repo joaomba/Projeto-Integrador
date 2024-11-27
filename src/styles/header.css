@@ -1,6 +1,7 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: px 50%;
+    
 }
 
 #navbar {
@@ -11,25 +12,28 @@ header {
 }
 
 #nav_logo {
-    font-size: 24px;
+    font-size: 50px;
     color: rgb(126, 180, 126);
 }
 
 #nav_list {
     display: flex;
-    list-style: none;
-    gap: 48px;
+    list-style: block;
+    gap: 3000px;
+    font-size: 30000px; 
 }
+
 
 .nav-item a {
     text-decoration: none;
     color: #e7d4d4ad;
-    font-weight: 600;
+    font-weight: 100;
+    font-size: 30px;
 }
 
 .nav-item.active a {
-    color: #e7d4d4ad;
-    border-bottom: 3px solid rgb(126, 180, 126);
+    color: #cac2c2ad;
+    border-bottom: px solid rgb(17, 17, 17);
 }
 
 #mobile_btn {
@@ -48,7 +52,7 @@ header {
     #mobile_btn {
         display: block;
         border: none;
-        background-color: transparent;
+        background-color: black;
         font-size: 1.5rem;
         cursor: pointer;
     }
