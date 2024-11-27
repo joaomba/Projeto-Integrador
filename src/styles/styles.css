@@ -57,3 +57,32 @@ section {
     height: 500px;
      
 }
+.avaliacao {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.avaliacao label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.estrelas {
+    display: flex;
+    direction: row;
+    font-size: 30px;
+}
+
+.estrela {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.estrela.checked {
+    color: gold;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+}
